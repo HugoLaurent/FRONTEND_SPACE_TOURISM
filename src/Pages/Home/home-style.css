@@ -8,3 +8,93 @@
   position: relative;
   z-index: 1;
 }
+
+.home__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home__text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: rgba(128, 128, 128, 0.9);
+  font-family: "Afacad Flux", sans-serif;
+  z-index: 2;
+}
+
+.home__text--subtitle {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.home__text--content {
+  max-width: 400px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.home__text--title {
+  color: white;
+  font-size: 10rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.home__button {
+  position: relative;
+  font-family: "Afacad Flux";
+  text-transform: uppercase;
+  align-self: flex-end;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border: none;
+  background-color: white;
+  color: black;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.moon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  transition: all 2s ease;
+  opacity: 0;
+  z-index: 1; /* Lune derrière le texte par défaut */
+}
+
+.home__button:hover {
+  color: white;
+}
+
+.home__button--p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.home__button:hover .moon {
+  transform: translate(-60%, -60%) rotate(0);
+  opacity: 1;
+  z-index: 0; /* Lune devant le texte au survol */
+}
