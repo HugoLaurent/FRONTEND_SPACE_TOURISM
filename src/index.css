@@ -3,6 +3,14 @@
    License: none (public domain)
 */
 
+/* styles.css ou App.css */
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap");
+
+/* Utilisez la police dans votre CSS */
+body {
+  font-family: "Afacad Flux", sans-serif; /* Utilisation de la police */
+}
+
 html,
 body,
 div,

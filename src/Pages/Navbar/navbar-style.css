@@ -1,0 +1,87 @@
+.navbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  z-index: 2;
+  width: 100%;
+  padding: 2rem;
+}
+
+hr {
+  width: 30%;
+  border: none;
+  height: 2px;
+  background-color: rgba(128, 128, 128, 0.5);
+  transform: translateX(100px);
+  z-index: 1;
+}
+
+.navbar nav {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 1.5rem 4rem;
+  backdrop-filter: blur(10px);
+}
+
+.navbar ul,
+.navbar li {
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: "Afacad Flux", sans-serif;
+  cursor: pointer;
+  position: relative; /* Important pour le positionnement de l'underline */
+}
+
+.navbar li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease; /* Ajouter 'ease' pour une transition plus douce */
+  position: absolute; /* Positionnement absolu pour l'underline */
+  bottom: -4px; /* Ajustez la position sous le texte */
+  left: 0; /* L'underline commence à gauche */
+}
+
+.navbar li.is-hover:hover::after {
+  width: 100%; /* S'étend sous l'élément lors du survol */
+}
+
+.navbar li span {
+  font-weight: bold;
+}
+
+.navbar button {
+  color: white;
+  border: none;
+  background-color: transparent;
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.underline {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: white;
+  transition: all 0.3s;
+}

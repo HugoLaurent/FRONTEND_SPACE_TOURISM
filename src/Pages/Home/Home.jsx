@@ -1,3 +1,5 @@
+import "./home-style.css";
+
 export default function Home() {
-  return <div>coucou</div>;
+  return <div className="home">Coucou</div>;
 }
