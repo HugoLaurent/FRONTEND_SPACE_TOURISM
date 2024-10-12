@@ -1,0 +1,18 @@
+{
+  "fr": {
+    "home": {
+      "title": "Préparez-vous pour l'aventure de votre vie",
+      "subtitle": "Nous vous offrons des voyages interstellaires à des prix abordables.",
+      "button": "Réservez maintenant"
+    },
+    "labels": ["Bienvenue", "Espace", "Tourisme", "Découverte", "Aventure"]
+  },
+  "eng": {
+    "home": {
+      "title": "Get ready for the adventure of your life",
+      "subtitle": "We offer interstellar journeys at affordable prices.",
+      "button": "Book now"
+    },
+    "labels": ["Welcome", "Space", "Tourism", "Discovery", "Adventure"]
+  }
+}
