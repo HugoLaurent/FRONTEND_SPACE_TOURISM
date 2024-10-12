@@ -1,18 +1,21 @@
 {
   "fr": {
+    "navbar": ["Accueil", "Destination", "Équipage", "Technologie"],
     "home": {
-      "title": "Préparez-vous pour l'aventure de votre vie",
-      "subtitle": "Nous vous offrons des voyages interstellaires à des prix abordables.",
-      "button": "Réservez maintenant"
-    },
-    "labels": ["Bienvenue", "Espace", "Tourisme", "Découverte", "Aventure"]
+      "subtitle": "Donc, vous voulez voyager dans ",
+      "title": "l'Espace",
+      "content": "Admettons-le ; si vous voulez aller dans l'espace, autant y aller vraiment et ne pas rester en bordure. Alors asseyez-vous, détendez-vous et laissez-nous vous offrir une expérience vraiment hors du commun !",
+      "button": "Explorer"
+    }
   },
+
   "eng": {
+    "navbar": ["Home", "Destination", "Crew", "Technology"],
     "home": {
-      "title": "Get ready for the adventure of your life",
-      "subtitle": "We offer interstellar journeys at affordable prices.",
-      "button": "Book now"
-    },
-    "labels": ["Welcome", "Space", "Tourism", "Discovery", "Adventure"]
+      "subtitle": "So, you want to travel to ",
+      "title": "Space",
+      "content": "Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!",
+      "button": "Explore"
+    }
   }
 }
