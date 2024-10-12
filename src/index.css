@@ -8,7 +8,8 @@
 
 /* Utilisez la police dans votre CSS */
 body {
-  font-family: "Afacad Flux", sans-serif; /* Utilisation de la police */
+  font-family: "Afacad Flux", sans-serif;
+  background-color: black; /* Utilisation de la police */
 }
 
 html,
@@ -134,4 +135,8 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }

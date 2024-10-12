@@ -1,9 +1,16 @@
 import "./navbar-style.css";
 import logo from "./../../assets/shared/logo.svg";
 import { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 
-export default function Navbar({ language, setLanguage }) {
-  const [activeIndex, setActiveIndex] = useState(0);
+const linkUrl = ["/", "/destination", "/crew", "/technology"];
+
+export default function Navbar({
+  language,
+  setLanguage,
+  activeIndex,
+  setActiveIndex,
+}) {
   const [underlineStyle, setUnderlineStyle] = useState({});
   const listRef = useRef(null);
 
@@ -34,8 +41,10 @@ export default function Navbar({ language, setLanguage }) {
               key={index}
               onClick={() => handleItemClick(index)}
             >
-              <span>{0 + index.toString()} </span>
-              {item}
+              <Link to={linkUrl[index]}>
+                <span>{0 + index.toString()} </span>
+                {item}
+              </Link>
             </li>
           ))}
           <li>
