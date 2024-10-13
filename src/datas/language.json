@@ -6,6 +6,43 @@
       "title": "l'Espace",
       "content": "Admettons-le ; si vous voulez aller dans l'espace, autant y aller vraiment et ne pas rester en bordure. Alors asseyez-vous, détendez-vous et laissez-nous vous offrir une expérience vraiment hors du commun !",
       "button": "Explorer"
+    },
+    "destination": {
+      "title": "Choisissez votre destination",
+      "planets": {
+        "lune": {
+          "name": "lune",
+          "content": "Voyez notre planète comme vous ne l’avez jamais vue auparavant. Un voyage relaxant idéal pour vous aider à retrouver du recul et revenir ressourcé. Pendant votre séjour, profitez-en pour découvrir un peu d’histoire en visitant les sites d’atterrissage de Luna 2 et d’Apollo 11.",
+          "description1": "Distance moyenne",
+          "distance": "384 400",
+          "description2": "Est. du temps de voyage",
+          "time": "3 days"
+        },
+        "mars": {
+          "name": "mars",
+          "content": "N'oublie pas d'emporter tes bottes de randonnée. Tu en auras besoin pour gravir Olympus Mons, la plus haute montagne planétaire de notre système solaire. Elle est deux fois et demie plus grande que l'Everest !",
+          "description1": "Distance moyenne",
+          "distance": "225 MIL. km",
+          "description2": "Est. du temps de voyage",
+          "time": "9 mois"
+        },
+        "europa": {
+          "name": "europa",
+          "content": "La plus petite des quatre lunes galiléennes en orbite autour de Jupiter, Europe est le rêve des amateurs d'hiver. Avec sa surface glacée, elle est parfaite pour faire un peu de patinage, de curling, de hockey ou simplement se détendre dans votre confortable chalet d'hiver.",
+          "description1": "Distance moyenne",
+          "distance": "628 MIL. km",
+          "description2": "Est. du temps de voyage",
+          "time": "3 ans"
+        },
+        "titan": {
+          "name": "titan",
+          "content": "La seule lune connue à posséder une atmosphère dense en dehors de la Terre, Titan est un chez-soi loin de chez soi (à quelques centaines de degrés de moins près !). En prime, vous profitez de vues imprenables sur les anneaux de Saturne.",
+          "description1": "Distance moyenne",
+          "distance": "1,6 MILLIARD km",
+          "description2": "Est. du temps de voyage",
+          "time": "7 ans"
+        }
+      }
     }
   },
 
@@ -16,6 +53,43 @@
       "title": "Space",
       "content": "Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!",
       "button": "Explore"
+    },
+    "destination": {
+      "title": "Pick your destination",
+      "planets": {
+        "moon": {
+          "name": "moon",
+          "content": "See our planet as you’ve never seen it before. A relaxing journey ideal for helping you gain perspective and return refreshed. During your stay, take the opportunity to discover a bit of history by visiting the landing sites of Luna 2 and Apollo 11.",
+          "description1": "Average distance",
+          "distance": "384,400 km",
+          "description2": "Est. travel time",
+          "time": "3 days"
+        },
+        "mars": {
+          "name": "mars",
+          "content": "Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!",
+          "description1": "Average distance",
+          "distance": "225 MIL. km",
+          "description2": "Est. travel time",
+          "time": "9 months"
+        },
+        "europa": {
+          "name": "europa",
+          "content": "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.",
+          "description1": "Average distance",
+          "distance": "628 MIL. km",
+          "description2": "Est. travel time",
+          "time": "3 years"
+        },
+        "titan": {
+          "name": "titan",
+          "content": "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
+          "description1": "Average distance",
+          "distance": "1.6 BIL. km",
+          "description2": "Est. travel time",
+          "time": "7 years"
+        }
+      }
     }
   }
 }

@@ -1,5 +1,8 @@
-import { Link } from "react-router-dom";
 import "./home-style.css";
+
+import { Link } from "react-router-dom";
+
+import lune from "./../../assets/destination/lune.webp";
 
 export default function Home({ language, setActiveIndex }) {
   return (
@@ -14,6 +17,7 @@ export default function Home({ language, setActiveIndex }) {
           <button className="home__button">
             <span className="home__button--p">{language.home.button}</span>
             <div className="moon"></div>
+            <img src={lune} />
           </button>
         </Link>
       </div>

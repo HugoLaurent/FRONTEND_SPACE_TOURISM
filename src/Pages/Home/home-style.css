@@ -51,50 +51,63 @@
 
 .home__button {
   position: relative;
-  font-family: "Afacad Flux";
-  text-transform: uppercase;
-  align-self: flex-end;
-  font-size: 1.5rem;
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
-  background-color: white;
-  color: black;
-  overflow: hidden;
-  transition: all 0.3s ease;
+  background: transparent;
+  border-radius: 50%;
+  width: 255px;
+  height: 255px;
   cursor: pointer;
+  overflow: hidden;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.home__button img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  transition: box-shadow 0.3s ease; /* Transition pour l'ombre */
+}
+
+.home__button:hover img {
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5); /* Ombre sur l'image au survol */
 }
 
 .moon {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 100%;
-  height: 100%;
+  width: 430px;
+  height: 430px;
   background-color: black;
   border-radius: 50%;
-  transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(50%, 50%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   transition: all 2s ease;
   opacity: 0;
-  z-index: 1; /* Lune derrière le texte par défaut */
+  z-index: 1;
+  filter: blur(8px);
 }
 
-.home__button:hover {
-  color: white;
+.home__button:hover .moon {
+  transform: translate(-10%, -10%);
+  opacity: 0.5;
 }
 
 .home__button--p {
+  font-family: "Afacad Flux";
+  text-transform: uppercase;
+  align-self: flex-end;
+  font-size: 2rem;
+  font-weight: 500;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-}
-
-.home__button:hover .moon {
-  transform: translate(-60%, -60%) rotate(0);
-  opacity: 1;
-  z-index: 0; /* Lune devant le texte au survol */
+  color: black;
+  pointer-events: none; /* Empêche le texte d'intercepter les clics */
 }
