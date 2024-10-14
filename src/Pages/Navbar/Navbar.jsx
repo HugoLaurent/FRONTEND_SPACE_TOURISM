@@ -14,6 +14,8 @@ export default function Navbar({
   const [underlineStyle, setUnderlineStyle] = useState({});
   const listRef = useRef(null);
 
+  const url = window.location.pathname;
+
   const handleItemClick = (index) => {
     setActiveIndex(index);
   };
@@ -22,6 +24,16 @@ export default function Navbar({
     const listItems = listRef.current.children;
     const activeItem = listItems[activeIndex];
     const { offsetLeft, offsetWidth } = activeItem;
+
+    if (url === "/") {
+      setActiveIndex(0);
+    } else if (url === "/destination") {
+      setActiveIndex(1);
+    } else if (url === "/crew") {
+      setActiveIndex(2);
+    } else if (url === "/technology") {
+      setActiveIndex(3);
+    }
 
     setUnderlineStyle({
       width: `${offsetWidth}px`,
