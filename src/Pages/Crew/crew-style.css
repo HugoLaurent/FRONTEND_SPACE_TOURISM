@@ -8,3 +8,153 @@
   position: relative;
   z-index: 1;
 }
+
+.crew__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 5rem;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.crew .subtitle {
+  position: absolute;
+  display: flex;
+  gap: 0.5rem;
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 1.5rem;
+  top: 10rem;
+  left: 17rem;
+}
+
+.crew .subtitle span {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.crew .subtitle p {
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+}
+
+.crew .hero {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.crew .hero--image__container {
+  width: 445px;
+  height: 445px;
+}
+
+.crew .hero__text--container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 30%;
+  height: 70vh;
+  color: white;
+  font-family: "Afacad Flux", sans-serif;
+}
+
+.hero__text--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  z-index: 2;
+}
+
+.crew .hero__text--container ul {
+  display: flex;
+  gap: 2rem;
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+}
+
+.crew .hero__text--container h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.crew .hero__text--container h2 {
+  font-size: 3rem;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.crew .hero__text--container p {
+  max-width: 400px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.crew .hero__text--container .choice-crew-active {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: grey; /* Couleur du cercle actif */
+  position: relative; /* Position relative pour le pseudo-élément */
+  transition: background-color 0.3s; /* Transition douce pour le changement de couleur */
+}
+
+.crew .hero__text--container .choice-crew {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white; /* Couleur du cercle inactif */
+  position: relative; /* Position relative pour le pseudo-élément */
+  transition: background-color 0.3s; /* Transition douce pour le changement de couleur */
+}
+
+/* Style pour le croissant de lune au survol */
+.crew .hero__text--container .choice-crew:hover {
+  background-color: white; /* Garder le fond blanc */
+}
+
+.crew .hero__text--container .choice-crew::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 102%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: black; /* Couleur du croissant de lune */
+  transform: translateX(
+    20px
+  ); /* Déplacer légèrement à droite pour créer l'effet de croissant */
+  clip-path: ellipse(
+    50% 50% at 70% 50%
+  ); /* Ajuster la position pour donner la forme de croissant */
+  transition: transform 0.3s, opacity 0.3s; /* Transition douce pour le mouvement et l'opacité */
+  opacity: 0; /* Initialement caché */
+}
+
+.crew .hero__text--container .choice-crew:hover::before {
+  transform: translateX(2px); /* Lors du survol, repositionner le croissant */
+  opacity: 1; /* Rendre le croissant visible au survol */
+}
+
+.crew .hero--image__container {
+  height: auto;
+  position: relative;
+  overflow: hidden; /* Assurez-vous que l'image reste dans les limites */
+}
+
+.crew .hero--image__container img {
+  height: auto;
+  mask-image: linear-gradient(to top, transparent 0%, black 60%, black);
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 60%, black);
+}

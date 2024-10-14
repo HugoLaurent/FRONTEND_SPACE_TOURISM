@@ -21,26 +21,26 @@
   transform: translate(-50%, -50%);
 }
 
-.subtitle {
+.destination .subtitle {
   position: absolute;
   display: flex;
   gap: 0.5rem;
   font-family: "Afacad Flux", sans-serif;
   font-size: 1.5rem;
   top: 10rem;
-  left: 12rem;
+  left: 18rem;
 }
 
-.subtitle span {
+.destination .subtitle span {
   color: rgba(255, 255, 255, 0.25);
 }
 
-.subtitle p {
+.destination .subtitle p {
   color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
 }
 
-.hero {
+.destination .hero {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -48,27 +48,28 @@
   gap: 4rem;
 }
 
-.hero--image__container {
+.destination .hero--image__container {
   width: 445px;
   height: 445px;
 }
 
-.hero__text--container {
+.destination .hero__text--container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 1.5rem;
   width: 30%;
   color: white;
   font-family: "Afacad Flux", sans-serif;
 }
 
-.hero__text--container ul {
+.destination .hero__text--container ul {
   display: flex;
   gap: 0.5rem;
   z-index: 2;
 }
 
-.hero__text--container li {
+.destination .hero__text--container li {
   text-transform: uppercase;
   border-bottom: 2px solid transparent;
   transition: border 0.3s ease;
@@ -76,39 +77,39 @@
   cursor: pointer;
 }
 
-.hero__text--container li:hover,
+.destination .hero__text--container li:hover,
 li.active {
   border-color: white;
 }
 
-.hero__text--container h2 {
+.destination .hero__text--container h2 {
   font-size: 7rem;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-.hero__text--container p {
+.destination .hero__text--container p {
   max-width: 400px;
   font-size: 1.2rem;
   font-weight: 300;
 }
 
-.hero .hr {
+.destination .hero .hr {
   width: 100%;
   height: 2px;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.hero__text--details {
+.destination .hero__text--details {
   display: flex;
   gap: 1.5rem;
   text-transform: uppercase;
 }
 
-.hero__text--details h3 {
+.destination .hero__text--details h3 {
   padding-bottom: 8px;
 }
 
-.hero__text--details p {
+.destination .hero__text--details p {
   font-size: 2rem;
 }

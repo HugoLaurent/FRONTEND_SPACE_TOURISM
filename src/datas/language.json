@@ -14,16 +14,16 @@
           "name": "lune",
           "content": "Voyez notre planète comme vous ne l’avez jamais vue auparavant. Un voyage relaxant idéal pour vous aider à retrouver du recul et revenir ressourcé. Pendant votre séjour, profitez-en pour découvrir un peu d’histoire en visitant les sites d’atterrissage de Luna 2 et d’Apollo 11.",
           "description1": "Distance moyenne",
-          "distance": "384 400",
-          "description2": "Est. du temps de voyage",
-          "time": "3 days"
+          "distance": "384 400 km",
+          "description2": "Estimation du temps de voyage",
+          "time": "3 jours"
         },
         "mars": {
           "name": "mars",
           "content": "N'oublie pas d'emporter tes bottes de randonnée. Tu en auras besoin pour gravir Olympus Mons, la plus haute montagne planétaire de notre système solaire. Elle est deux fois et demie plus grande que l'Everest !",
           "description1": "Distance moyenne",
           "distance": "225 MIL. km",
-          "description2": "Est. du temps de voyage",
+          "description2": "Estimation du temps de voyage",
           "time": "9 mois"
         },
         "europa": {
@@ -31,7 +31,7 @@
           "content": "La plus petite des quatre lunes galiléennes en orbite autour de Jupiter, Europe est le rêve des amateurs d'hiver. Avec sa surface glacée, elle est parfaite pour faire un peu de patinage, de curling, de hockey ou simplement se détendre dans votre confortable chalet d'hiver.",
           "description1": "Distance moyenne",
           "distance": "628 MIL. km",
-          "description2": "Est. du temps de voyage",
+          "description2": "Estimation du temps de voyage",
           "time": "3 ans"
         },
         "titan": {
@@ -39,8 +39,37 @@
           "content": "La seule lune connue à posséder une atmosphère dense en dehors de la Terre, Titan est un chez-soi loin de chez soi (à quelques centaines de degrés de moins près !). En prime, vous profitez de vues imprenables sur les anneaux de Saturne.",
           "description1": "Distance moyenne",
           "distance": "1,6 MILLIARD km",
-          "description2": "Est. du temps de voyage",
+          "description2": "Estimation du temps de voyage",
           "time": "7 ans"
+        }
+      }
+    },
+    "crew": {
+      "title": "Rencontrez votre équipage",
+      "crew": {
+        "douglas": {
+          "role": "Commandant",
+          "name": "Douglas Hurley",
+          "content": "Douglas Gerald Hurley est un ingénieur américain, ancien pilote du Marine Corps et ancien astronaute de la NASA. Il s’est envolé dans l’espace pour la troisième fois en tant que commandant de Crew Dragon Demo-2.",
+          "picture": "./../assets/crew/image-douglas-hurley.webp"
+        },
+        "mark": {
+          "role": "Spécialiste de mission",
+          "name": "MARK SHUTTLEWORTH",
+          "content": "Mark Richard Shuttleworth est le fondateur et PDG de Canonical, l'entreprise derrière le système d'exploitation Linux Ubuntu. Shuttleworth est devenu le premier Sud-Africain à voyager dans l'espace en tant que touriste spatial.",
+          "picture": "./../assets/crew/image-mark-shuttleworth.webp"
+        },
+        "victor": {
+          "role": "Pilote",
+          "name": "Victor Glover",
+          "content": "Pilote du premier vol opérationnel du SpaceX Crew Dragon vers la Station spatiale internationale. Glover est commandant dans la marine américaine où il pilote un F/A-18. Il était membre de l'équipage de l'Expédition 64 et a servi comme ingénieur de vol des systèmes de la station.",
+          "picture": "./../assets/crew/image-victor-glover.webp"
+        },
+        "ansari": {
+          "role": "Ingénieure de vol",
+          "name": "Anousheh Ansari",
+          "content": "Anousheh Ansari est une ingénieure irano-américaine et cofondatrice de Prodea Systems. Ansari a été la quatrième touriste spatiale autofinancée, la première femme autofinancée à voler vers l'ISS et la première Iranienne dans l'espace.",
+          "picture": "./../assets/crew/image-anousheh-ansari.webp"
         }
       }
     }
@@ -88,6 +117,35 @@
           "distance": "1.6 BIL. km",
           "description2": "Est. travel time",
           "time": "7 years"
+        }
+      }
+    },
+    "crew": {
+      "title": "Meet your crew",
+      "crew": {
+        "douglas": {
+          "role": "Commander",
+          "name": "Douglas Hurley",
+          "content": "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.",
+          "picture": "./../assets/crew/image-douglas-hurley.webp"
+        },
+        "mark": {
+          "role": "Mission Specialist ",
+          "name": "MARK SHUTTLEWORTH",
+          "content": "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.",
+          "picture": "./../assets/crew/image-mark-shuttleworth.webp"
+        },
+        "victor": {
+          "role": "PILOT",
+          "name": "Victor Glover",
+          "content": "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer.",
+          "picture": "./../assets/crew/image-victor-glover.webp"
+        },
+        "ansari": {
+          "role": "Flight Engineer",
+          "name": "Anousheh Ansari",
+          "content": "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space. ",
+          "picture": "./../assets/crew/image-anousheh-ansari.webp"
         }
       }
     }
