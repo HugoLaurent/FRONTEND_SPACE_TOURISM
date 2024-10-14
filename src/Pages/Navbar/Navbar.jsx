@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 
 const linkUrl = ["/", "/destination", "/crew", "/technology"];
 
+import frenchFlag from "./../../assets/flags/france.png";
+import englishFlag from "./../../assets/flags/united-kingdom.png";
+
 export default function Navbar({
   language,
   setLanguage,
@@ -60,10 +63,14 @@ export default function Navbar({
             </li>
           ))}
           <li>
-            <button onClick={() => setLanguage("fr")}>FR</button>
+            <button onClick={() => setLanguage("fr")}>
+              <img src={frenchFlag} alt="" />
+            </button>
           </li>
           <li>
-            <button onClick={() => setLanguage("eng")}>EN</button>
+            <button onClick={() => setLanguage("eng")}>
+              <img src={englishFlag} alt="" />
+            </button>
           </li>
         </ul>
         <div className="underline" style={underlineStyle}></div>

@@ -68,3 +68,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Website - [Hugo Laurent](http://www.hugolaurent.fr)
 - Frontend Mentor - [@hlshk](https://www.frontendmentor.io/profile/hlshk)
+- Thanks to [Flag icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/flag)
+- Thanks to [United kingdom icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/united-kingdom)

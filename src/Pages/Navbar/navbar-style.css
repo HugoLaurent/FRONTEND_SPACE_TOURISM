@@ -71,12 +71,17 @@ hr {
 }
 
 .navbar button {
+  display: flex;
   color: white;
   border: none;
   background-color: transparent;
   font-family: "Afacad Flux", sans-serif;
   font-weight: bold;
   cursor: pointer;
+}
+
+.navbar button img {
+  width: 20px;
 }
 
 .underline {

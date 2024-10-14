@@ -148,6 +148,7 @@
 }
 
 .crew .hero--image__container {
+  width: fit-content;
   height: auto;
   position: relative;
   overflow: hidden; /* Assurez-vous que l'image reste dans les limites */
